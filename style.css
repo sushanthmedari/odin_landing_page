@@ -4,7 +4,7 @@ body {
 }
 
 .empty-background {
-    background-color: darkblue;
+    background-color: #1f2937;
     color:#f9faf8;
 
 }
@@ -15,7 +15,6 @@ nav ul {
     color: #f9faf8;
     padding-top: 15px;
     padding-right:  40px;
-    /* margin: -10px; */
 }
 
 .logo {
@@ -38,7 +37,6 @@ a {
 
 .flex-container {
     display: flex;
-    /* flex-wrap: wrap; */
     margin: 80px;
 }
 
@@ -52,6 +50,8 @@ img {
     margin: 30px;
     width: 150px;
     height: 150px;
+    border: .4rem solid #3882F6;
+    border-radius: 25px;
 }
 
 
@@ -61,8 +61,63 @@ img {
 }
 
 .second-header {
-display: flex;
- justify-content: center;
- margin: -20px 0 -60px 0;
+    display: flex;
+    justify-content: center;
+    margin: -20px 0 -60px 0;
 
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    
+}
+
+.background-two {
+
+    background-color: #e5e7eb;
+}
+
+.third-content {
+
+    padding: 0 60px; 
+    padding-top: 60px
+}
+
+.quote {
+
+    display: flex;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+
+.fourth-container {
+    display: flex;
+    margin: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    
+}
+
+.fourth-button { 
+
+    margin-top: 40px;
+
+}
+
+.final-background {
+    padding: 20px 0;
+    background-color: #1f2937;
+    color:#f9faf8;
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
 }
